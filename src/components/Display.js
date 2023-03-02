@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import NavTabs from './Navtabs';
-import Challenges from './Challenges';
+import Portfolio from './Portfolio';
 import Resume from './Resume';
 import Footer from './Footer';
 import Contact from './Contact'
@@ -19,7 +19,7 @@ export default function Display() {
         return <About />;
       }
       if (currentPage === 'portfolio') {
-        return <Challenges />;
+        return <Portfolio />;
       }
       if (currentPage === 'contact') {
         return <Contact />;

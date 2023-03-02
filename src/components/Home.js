@@ -1,20 +1,19 @@
 import Alert from 'react-bootstrap/Alert';
-
+import ProfilePicture from '../assets/images/profilepic.jpeg'
 function Home() {
   return (
+    <div>
     <Alert variant="success">
-      <Alert.Heading>Hey, nice to see you</Alert.Heading>
-      <p>
-        Aww yeah, you successfully read this important alert message. This
-        example text is going to run a bit longer so that you can see how
-        spacing within an alert works with this kind of content.
-      </p>
+      <Alert.Heading>Yves-Henry Moraille</Alert.Heading>
+      <h4>Full Stack Software Engineer</h4>
+      <img className='ProfilePicture' src={ProfilePicture}></img>
       <hr />
       <p className="mb-0">
-        Whenever you need to, be sure to use margin utilities to keep things
-        nice and tidy.
+       Welcome to my Portfolio, where you will be able to get to know me and get to see some of the projects that I've worked on.
       </p>
     </Alert>
+     
+     </div>
   );
 }
 
