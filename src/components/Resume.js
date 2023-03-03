@@ -1,5 +1,5 @@
 import React from 'react'
-import Resumepdf from '../assets/images/Resume.pdf'
+import Resumepdf from '../assets/images/Resume.pdf';
 
 
 

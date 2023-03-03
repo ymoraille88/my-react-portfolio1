@@ -12,7 +12,7 @@ return(
       <Nav.Link onClick={()=>handlePageChange("about")} href="#about">About</Nav.Link>
       <Nav.Link onClick={()=>handlePageChange("portfolio")} href="#portfolio">Portfolio</Nav.Link>
       <Nav.Link onClick={()=>handlePageChange("resume")} href="#resume">Resume</Nav.Link>
-      <Nav.Link onClick={()=>handlePageChange("contact")} href="#contact">Contact</Nav.Link>
+     
     </Nav>
   </Container>
 </Navbar>

@@ -3,7 +3,7 @@ import NavTabs from './Navtabs';
 import Portfolio from './Portfolio';
 import Resume from './Resume';
 import Footer from './Footer';
-import Contact from './Contact'
+
 import Home from './Home'
 import About from './About';
 
@@ -13,18 +13,19 @@ export default function Display() {
     // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
     const renderPage = () => {
       if (currentPage === 'home') {
-        return <Home />;
+        return <Home />
       }
       if (currentPage === 'about') {
-        return <About />;
+        return <About />
       }
       if (currentPage === 'portfolio') {
-        return <Portfolio />;
+        return <Portfolio />
       }
-      if (currentPage === 'contact') {
-        return <Contact />;
+      if (currentPage === 'resume') {
+        return <Resume />
       }
-      return <Home />;
+     
+      return <Home />
     };
   
     const handlePageChange = (page) => setCurrentPage(page);
