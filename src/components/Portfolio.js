@@ -4,11 +4,12 @@ import Card from 'react-bootstrap/Card';
 import Generator from '../assets/images/generator.png';
 import Cuisine from '../assets/images/project1.png'
 import Care from '../assets/images/project2.png'
+import "./portfolio.css";
 
 
 function Portfolio() {
   return (
-    <div class='row'>Projects
+    <div class='row'><h1>Projects</h1><div class='cards'>
  <Card style={{ width: '18rem' }}>
       <Card.Img className="Generator" src={Generator} />
       <Card.Body>
@@ -16,7 +17,7 @@ function Portfolio() {
         <Card.Text>
           This challenge is Password Generator it will ask what type of character you would like to implement in your new password and it will render a random Password.
         </Card.Text>
-        <Button variant="primary"><a href="https://ymoraille88.github.io/Password-Generator/Links to an external site."></a>Password Generator Link</Button>
+        <Button variant="primary"><a href="https://ymoraille88.github.io/Password-Generator/Links to an external site."target="_blank" rel='noreferrer'>Password Generator Link</a></Button>
       </Card.Body>
     </Card>
 
@@ -38,9 +39,10 @@ function Portfolio() {
         <Card.Text>
           Urgent Care is a Website to make it easier for patient to be able to set an appointment, to have their health record.  
         </Card.Text>
-        <Button variant="primary"><a href="https://enigmatic-tundra-51864.herokuapp.com/Links to an external site."></a>Express Urgent Care Link</Button>
+        <Button variant="primary"><a href="https://enigmatic-tundra-51864.herokuapp.com/Links to an external site."target="_blank" rel='noreferrer'>Express Urgent Care</a></Button>
       </Card.Body>
     </Card>
+    </div>
 </div>
 
 
