@@ -9,6 +9,7 @@ import "./portfolio.css";
 
 function Portfolio() {
   return (
+    
     <div class='row'><h1>Projects</h1><div class='cards'>
  <Card style={{ width: '18rem' }}>
       <Card.Img className="Generator" src={Generator} />

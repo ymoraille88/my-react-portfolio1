@@ -2,12 +2,13 @@
     display: flex;
     flex-direction: column;
     margin: 40px 0;
+    background: #d1e7dd;
 
 }
 .cards{
     display: flex;
     flex-direction: row;
-    margin: 0px auto;
+    margin: 50px auto;
     gap: 120px;
     align-items: flex-start;
     justify-content: center;

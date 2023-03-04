@@ -1,11 +1,12 @@
 import React from 'react';
 import Picture from '../assets/images/MDT.png';
+import './about.css';
 
 
 
 export default function About() {
     return (
-<div>
+<div class='about'>
     <h2> About Me</h2>
     <img className='Picture' src={Picture}></img>
     <li>
