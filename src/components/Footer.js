@@ -1,5 +1,10 @@
 import React from "react";
-// import { IconName } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { AiOutlineMail } from "react-icons/ai";
+import './footer.css'
+
+
 
 
 
@@ -11,15 +16,15 @@ return (
 <div> 
 
 <footer className= 'footer'>
-<p className="nav-item"><a href="https://github.com/ymoraille88">GitHub</a></p>
-<p className="nav-item"><a href="https://linkedin.com/in/yves-henry-e-moraille-164001166/">LinkedIn</a></p>
-<p className="nav-item"><a href="pinmpin40@hotmail.com">Email</a></p>
+<div className="nav-item"><a href="https://github.com/ymoraille88"><FaGithub size={50} /></a></div>
+<div className="nav-item"><a href="https://linkedin.com/in/yves-henry-e-moraille-164001166/"><FaLinkedin size={50} /></a></div>
+<div className="nav-item"><a href="pinmpin40@hotmail.com"><AiOutlineMail size={50} /></a></div>
 
 </footer>
 
 </div>
 
-)
+);
 
 }
 

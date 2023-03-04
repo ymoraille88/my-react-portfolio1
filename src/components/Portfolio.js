@@ -17,7 +17,7 @@ function Portfolio() {
         <Card.Text>
           This challenge is Password Generator it will ask what type of character you would like to implement in your new password and it will render a random Password.
         </Card.Text>
-        <Button variant="primary"><a href="https://ymoraille88.github.io/Password-Generator/Links to an external site."target="_blank" rel='noreferrer'>Password Generator Link</a></Button>
+        <Button variant="primary"><a href="https://ymoraille88.github.io/Password-Generator"target="_blank" rel='noreferrer'>Password Generator Link</a></Button>
       </Card.Body>
     </Card>
 
@@ -29,7 +29,7 @@ function Portfolio() {
           This project was one of the best Project I've worked on.  It's a website for people who works a lot and don't have time to think about what thei about to eat and drink.  This website generates different food and cocktail for a great dinner.
         </Card.Text>
 
-        <Button variant="primary"><a href="https://belengigante.github.io/cuisine-meets-cocktails/Links to an external site."></a>Cuisine Meet Cocktail Link</Button>
+        <Button variant="primary"><a href="https://belengigante.github.io/cuisine-meets-cocktails"target="_blank" rel='noreferrer'>Cuisine Meet Cocktail </a>Link</Button>
       </Card.Body>
     </Card>
     <Card style={{ width: '18rem' }}>
@@ -39,7 +39,7 @@ function Portfolio() {
         <Card.Text>
           Urgent Care is a Website to make it easier for patient to be able to set an appointment, to have their health record.  
         </Card.Text>
-        <Button variant="primary"><a href="https://enigmatic-tundra-51864.herokuapp.com/Links to an external site."target="_blank" rel='noreferrer'>Express Urgent Care</a></Button>
+        <Button variant="primary"><a href="https://enigmatic-tundra-51864.herokuapp.com"target="_blank" rel='noreferrer'>Express Urgent Care</a></Button>
       </Card.Body>
     </Card>
     </div>

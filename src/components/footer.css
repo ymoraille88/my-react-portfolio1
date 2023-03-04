@@ -1,0 +1,15 @@
+.footer {
+    display: flex;
+
+    flex-direction: row;
+
+    justify-content: center;
+    margin: 50px 0;
+
+}
+
+.nav-item {
+    margin: 20px;
+    height: 100px;
+    width: auto;
+}
