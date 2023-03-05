@@ -1,5 +1,5 @@
 import Alert from 'react-bootstrap/Alert';
-import ProfilePicture from '../assets/images/profilepic.jpeg';
+import ProfilePicture from '../../assets/images/profilepic.jpeg';
 function Home() {
   return (
     <div>

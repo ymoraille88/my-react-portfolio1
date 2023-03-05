@@ -1,9 +1,9 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import Generator from '../assets/images/generator.png';
-import Cuisine from '../assets/images/project1.png'
-import Care from '../assets/images/project2.png'
+import Generator from '../../assets/images/generator.png';
+import Cuisine from '../../assets/images/project1.png'
+import Care from '../../assets/images/project2.png'
 import "./portfolio.css";
 
 

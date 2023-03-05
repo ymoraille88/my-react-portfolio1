@@ -1,5 +1,5 @@
 import React from 'react';
-import Picture from '../assets/images/MDT.png';
+import Picture from '../../assets/images/MDT.png';
 import './about.css';
 
 

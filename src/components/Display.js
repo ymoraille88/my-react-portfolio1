@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import NavTabs from './Navtabs';
-import Portfolio from './Portfolio';
-import Resume from './Resume';
-import Footer from './Footer';
+import Portfolio from './pages/Portfolio';
+import Resume from './pages/Resume';
+import Footer from './pages/Footer';
 
-import Home from './Home'
-import About from './About';
+import Home from './pages/Home'
+import About from './pages/About';
 
 export default function Display() {
     const [currentPage, setCurrentPage] = useState('Home');
